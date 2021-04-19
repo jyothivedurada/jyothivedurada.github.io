@@ -1,7 +1,7 @@
 # Jyothi Vedurada
 
-
+![photo](../images/Jyothi_Vedurada_photo.jpeg)
 This my webpage on GitHub
 
-Jyothi_Vedurada_photo.jpeg![Uploading image.png…]()
+
 
