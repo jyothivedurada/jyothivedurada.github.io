@@ -39,7 +39,7 @@ Jyothi Vedurada
     </table>
     
     
-    <p align="justify"> <font face="Arial, Helvetica, sans-serif">I am an assistant professor at the <a href="http://cse.iith.ac.in/" target="_blank">Dept. of Computer Science and Engineering</a>, <a href="https://www.iith.ac.in/" target="_blank">IIT Hyderabad</a>.  My research interests are program analysis, program understanding, automated testing of concurrent programs, and high-performance computing. Prior to joining IIT Hyderabad, I was a post-doctoral researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"> Microsoft Research Lab</a>, Bangalore. I received my PhD from <a href="http://www.iitm.ac.in/" target="_blank">IIT Madras</a>, supported by the TCS PhD fellowship. Before that, I worked as a Software Engineer at Hewlett Packard, Chennai. 
+    <p align="justify"> <font face="Arial, Helvetica, sans-serif">I am an assistant professor at the <a href="http://cse.iith.ac.in/" target="_blank">Dept. of Computer Science and Engineering</a>, <a href="https://www.iith.ac.in/" target="_blank">IIT Hyderabad</a>.  My research interests are program analysis, program understanding, automated concurrency testing, and high-performance computing. Prior to joining IIT Hyderabad, I was a post-doctoral researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"> Microsoft Research Lab</a>, Bangalore. I received my PhD (+M.Tech) from <a href="http://www.iitm.ac.in/" target="_blank">IIT Madras</a>, supported by the TCS PhD fellowship. Before that, I worked as a Software Engineer at Hewlett Packard, Chennai. 
       </font></p>
 </div>
 
@@ -54,24 +54,31 @@ Jyothi Vedurada
 <div id="block"> 
  <ul class="divide"><b>&nbsp Research</b></ul>
  <ul class="font-style">
-<li> Current Research: Developing efficient points-to analysis 
-techniques suitable for environments with tight time and memory budgets.
- Currently working on the same for Java programs.</li> <br>
-<!--Analyzing Java source code to identify refactoring opportunities and performing automatic refactoring based on the results of the analyses. Currently working on the same for Replace Conditional with Polymorphism refactoring technique. </li> <br>-->
-<li> Research Interests </li> <br>
+I am broadly interested in program analysis, program understanding, automated concurrency testing, and high-performance computing. Specifically, I work on designing new (or enhancing existing) program-analysis techniques for practical applications, with the main focus on the challenges related to scalability and interoperability. I am also interested in devising techniques to achieve scalable performance, correctness and programmability in real-world systems that appear in varied environments: single-core/multicore, heterogeneous and distributed systems. 
+<br>
+<br>
+&nbsp Here are some of the projects I worked on. <i>(Give you a flavour of my research!) </i>
+
  <ul class="font-style">
-<li> Program Analysis: Developing precise and scalable program analysis techniques to improve program understanding and performance.</li> <br>
-<!--
-<li> Program Verification : Inferring the specifications like invariants, contracts/annotations from a program and use
-them to verify the correctness of the program. </li> <br>
--->
-<li> Parallelization: Parallelizing serial programs/analyses by using efficient techniques to gain maximum parallelism
-with less overhead. </li> <br> 
-<li> Software Engineering: Applying program analysis and parallelization
- techniques for automating the activities of a software developer such 
-as refactoring, testing etc.</li> 
+
+<li> <i>A Language-agnostic Concurrency Testing Library: </i> Designed for developers to build their own custom systematic testing solutions. The library detects concurrency bugs by taking over the scheduling of concurrent operations (tasks/threads/actors etc.) and systematically exploring the various interleavings of operations.
+</li><br>
+
+<li> <i> Testing Storage-backed Applications Against Weak Isolation Levels: </i>
+Develops a mock storage system that exercises weak behaviors possible under multiple isolation levels  to detect assertion violations in a database/KV-store application. The operational semantics of this storage system is based on axiomatic definitions of various weak isolation levels.</li><br>
+
+
+<li> <i>Identifying Refactoring Opportunities in Large Codebases:</i> It involves proposing efficient static analyses (mainly points-to analyses) for automatic identification of challenging refactoring opportunities in object-oriented software, with particular emphasis on the issues that occur when the refactoring tools are coupled into resource-bound environments like IDEs (Integrated Development Environments). </li> <br> 
+
+<li> <i>TTLG:</i> An efficient tensor transposition library for graphics processing units (GPUs), which implements specialized data movement strategies and uses a performance prediction model to achieve high coalesced access of data. </li><br>
+
+<li> <i>Approximate Nearest Neighbor Search (ANN) on GPUs: </i> It is an efficient ANN search implementation on GPUs for improving the QPS (Queries Per Second) throughput up to >50,000 on 100-dimensional billion point data (coming from deep learning-based embeddings). 
+</li><br>
+
    </ul>
-   </ul>
+
+
+<i style="color:#116152"> <b> You can drop me an email if you are a motivated student with similar research interests and want to work with me. </b> </i>
 </div>
 
 
@@ -172,41 +179,6 @@ Engineering Companion, ICSE-C'17. (<a href="http://www.cse.iitm.ac.in/~vjyothi/i
 
 
 
-
-
-
-
-
-<a name="awards"></a>
-<div id="block"> 
- <ul class="divide"><b>&nbsp Awards</b></ul>
-<ul class="font-style">
-     <li><font face="Arial, Helvetica, sans-serif">"Distinguished Reviewer Award" for the work on the OOPSLA 2019 Artifact Evaluation PC. </font></li><br>
-     <li><font face="Arial, Helvetica, sans-serif">"Institute Research Award" in recognition of  my PhD thesis work. </font></li><br>
-      <li><font face="Arial, Helvetica, sans-serif">Tata Consultancy Services PhD fellowship.</font></li> <br>
-      <li><font face="Arial, Helvetica, sans-serif">Ranked 1st in the 
-Student Parallel Programming Challenge hosted by IEEE International 
-Conference on High Performance Computing (HiPC) 2016. </font></li> <br>
-     <li><font face="Arial, Helvetica, sans-serif">"STAR TA Award" for contributing as a Teaching Assistant at IIT Madras. </font></li><font face="Arial, Helvetica, sans-serif"><br>
-</ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
  <a name="service"></a>
 <div id="block"> 
@@ -235,9 +207,42 @@ Conference on High Performance Computing (HiPC) 2016. </font></li> <br>
  <ul class="divide"><b>&nbsp Students</b></ul>
 
  <ul class="font-style">
-      <li>I am looking for both graduate and undergraduate students with good programming skills and are interested in the areas of program analysis, programming languages, parallelization.<br>  </li> <br>
+      <li>I am looking for both graduate and undergraduate students with good programming skills and are broadly interested in topics such as program analysis, programming languages, concurrency testing, compiler optimizations, parallelization, etc.<br>  </li> <br>
   </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="awards"></a>
+<div id="block"> 
+ <ul class="divide"><b>&nbsp Awards</b></ul>
+<ul class="font-style">
+     <li><font face="Arial, Helvetica, sans-serif">"Distinguished Reviewer Award" for the work on the OOPSLA 2019 Artifact Evaluation PC. </font></li><br>
+     <li><font face="Arial, Helvetica, sans-serif">"Institute Research Award" in recognition of  my PhD thesis work. </font></li><br>
+      <li><font face="Arial, Helvetica, sans-serif">Tata Consultancy Services PhD fellowship.</font></li> <br>
+      <li><font face="Arial, Helvetica, sans-serif">Ranked 1st in the 
+Student Parallel Programming Challenge hosted by IEEE International 
+Conference on High Performance Computing (HiPC) 2016. </font></li> <br>
+     <li><font face="Arial, Helvetica, sans-serif">"STAR TA Award" for contributing as a Teaching Assistant at IIT Madras. </font></li><font face="Arial, Helvetica, sans-serif"><br>
+</ul>
+</div>
+
+
+
 
 
 
