@@ -28,18 +28,19 @@
       background-color: #EC173A
     }
 
-    ul.nav {
-     font-size: 18px;
-     list-style-type: none;
-     margin: 1px;
-     overflow: hidden;
-     background-color:   #138d75  ;
-     position: fixed;
-     top: 0;
-     width:65.5%;
-     padding:12px 5px;
-     border-radius: 25px;
-    }
+  
+ul.nav {
+   font-size: 18px;
+   color: white;
+   list-style-type: none;
+   margin: 1px;
+   overflow: hidden;
+   background-color:   #138d75  ;
+   padding:9px 5px;
+   border-radius: 25px;
+   position: fixed;
+   top: 0;
+  }
 
     li.nav {
       float: left;
