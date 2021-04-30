@@ -45,7 +45,6 @@ ul.nav {
     li.nav {
       float: left;
       border-right: 2px solid white;
-      margin: 5.5px;
     }
 
    li.nav:last-child {    
@@ -56,7 +55,7 @@ ul.nav {
      display: block;
      color: white;
      text-align: left;
-     padding: 5px 17px;
+     padding: 7px 22.5px;
      text-decoration: none;
    }
 
