@@ -2,14 +2,14 @@
 	max-width: 950px;
       width=50%;
 	margin: auto;
-    	font-size: 16px;
+    	font-size: 16.5px;
     	background-color:       #ffffff   ;
       z-index: 9999;
       background-position: center;
     }
 
     a {
-      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-family:  Arial, Helvetica, sans-serif;
     }
     a:hover {
       color: #06F;
@@ -45,6 +45,7 @@ ul.nav {
     li.nav {
       float: left;
       border-right: 2px solid white;
+      margin: 5.5px;
     }
 
    li.nav:last-child {    
