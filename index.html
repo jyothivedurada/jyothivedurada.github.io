@@ -64,10 +64,10 @@ I am broadly interested in compilers, program analysis, high-performance computi
 &nbsp Here are some of the projects I worked/am working on. <i>(Give you a flavour of my research!) </i>
 
  <ul class="font-style">
-<li> <i>Compiler Optimizations.</i> Collaborative computation between CPU and GPU is essential to achieve high program
-performance in a heterogeneous system; however, CPU- or GPU-only optimization techniques do not suffice. At IITH, we propose new global compiler optimizations 
-in this project that allow CPUs and GPUs to work cooperatively to achieve
-high performance in heterogeneous systems.
+<li> <i>Heterogeneous systems combining CPUs, GPUs, and FPGAs offer immense performance potential but pose a trade-off between ease of programming and optimization. 
+	While abstractions like Unified Memory simplify development, they often degrade performance, whereas streams and asynchronous APIs improve efficiency but increase complexity. 
+	To address this, we propose compiler optimizations that enable cooperative CPU-GPU execution. Our compiler framework, GSOHC, introduces hetero-sync motion optimization to improve CPU utilization by relocating global barriers, while our frameworks UVMemcpy and StreamAlloc provide efficient yet user-friendly memory management. 
+	Together, these solutions enhance both programmability and performance in heterogeneous systems.
 </li><br>
 <li> <i>ML for PL.</i> While traditional program analysis tools are very powerful, they become challenging to use in real
 settings due to their whole program requirements, scalability issues etc. As AI systems learn from examples, they
